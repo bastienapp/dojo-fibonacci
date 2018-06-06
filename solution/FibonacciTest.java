@@ -12,6 +12,7 @@ public class FibonacciTest extends TestCase {
 	public void test1() throws Exception {
 		assertEquals(0, Fibonacci.fibo(0));
 	    assertEquals(1, Fibonacci.fibo(1));
+	    assertEquals(3, Fibonacci.fibo(4));
 	    assertEquals(8, Fibonacci.fibo(6));
 	    assertEquals(21, Fibonacci.fibo(8));
 	}
